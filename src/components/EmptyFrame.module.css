@@ -1,0 +1,47 @@
+.emptyFrame{
+  box-sizing: border-box;
+
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1.5rem;
+  gap: 1rem;
+  height: 15.25rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+  color: var(--gray-300)
+}
+
+.icon{
+  color: var(--gray-350);
+}
+
+
+
+.emptyFrame p{
+  font-size: 1rem;
+  line-height: 0.7rem;
+
+  text-align: center;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.warning{
+  margin-top: 1rem;
+  font-weight: 700;
+}
+.message{
+  font-weight: 400;
+}
